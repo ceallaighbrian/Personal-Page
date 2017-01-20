@@ -22,3 +22,32 @@
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
+
+
+.Header{
+    height: 4rem;
+    line-height: 10rem;
+    position: absolute;
+    top: 1rem;
+    right: 5rem;
+    z-index: 2;
+    font-family: Julius Sans One,sans-serif !important;
+    font-size: 4rem;
+}
+
+
+
+.Headmast{
+    height: 70rem;
+    display: block;
+    width: 100%;
+    position: relative;
+    /*background: url(/dist/3c468790adcd2cddcf75425543fe25e5.jpg) no-repeat center center fixed;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.NavItem {
+    font-family: Julius Sans One,sans-serif;
+}

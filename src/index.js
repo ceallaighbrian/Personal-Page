@@ -13,4 +13,4 @@ const Routes = (
 )
 
 const app = document.getElementById('root');
-render(Routes, app)
+render(Routes, app);

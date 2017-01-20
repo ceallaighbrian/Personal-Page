@@ -1,0 +1,23 @@
+.header {
+    height: 4rem;
+    line-height: 4rem;
+    position: absolute;
+    right: 4rem;
+    top: 5rem;
+    font-size: 2rem;
+}
+
+.headerLink {
+    color: #d3d3d3;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.headerLink:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.headerLink.active {
+     color: white;
+ }
