@@ -1,10 +1,10 @@
 .header {
-    height: 4rem;
+    height: 3rem;
     line-height: 4rem;
     position: absolute;
     right: 4rem;
     top: 5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .headerLink {
@@ -19,5 +19,5 @@
 }
 
 .headerLink.active {
-     color: white;
+    color: white;
  }

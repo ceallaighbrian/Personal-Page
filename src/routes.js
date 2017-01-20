@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Route, IndexRoute, Link } from 'react-router';
-import { Jumbotron } from 'react-bootstrap';
-import './components/style.css';
+import { Route, IndexRoute} from 'react-router';
+import './assets/css/style.css';
 
 import Home from './components/home/Home'
 import Contact from './components/contact/Contact'
@@ -21,10 +20,7 @@ class App extends Component {
       <div>
         <img className="Headmast" src={Image}/>
         <Header/>
-        <Jumbotron>
-          <h1>Brian Kelly</h1>
         { this.props.children }
-        </Jumbotron>
         <Footer/>
       </div>
     )
