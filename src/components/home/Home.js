@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Headmast from '../headmast/Headmast';
+import Image from '../../assets/images/cliffs.jpg'
 import './home.css';
 
 
@@ -6,6 +8,7 @@ export default class Home extends Component {
   render(){
     return (
       <div className="content">
+        <Headmast image = {Image}/>
       <section className="contentSubsection">
           <h2 className="contentTitle">
             Brian Kelly

@@ -30,7 +30,7 @@
 }
 
 .imageHeadshot {
-    background-image: url('../../headshot.jpeg');
+    background-image: url('../../assets/images/headshot.jpeg');
     background-size: 200px 200px;
     background-repeat: no-repeat;
     border-radius: 50%;

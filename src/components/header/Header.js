@@ -4,10 +4,6 @@ import './header.css';
 
 export default class PageHeader extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <header className="header">
