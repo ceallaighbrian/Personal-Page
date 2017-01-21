@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Headmast from '../headmast/Headmast';
+import Masthead from '../masthead/Masthead';
 import Image from '../../assets/images/cliffs.jpg'
 import './home.css';
 
@@ -8,10 +8,14 @@ export default class Home extends Component {
   render(){
     return (
       <div className="content">
-        <Headmast image = {Image}/>
+        <section className="mastheadContainer">
+          <Masthead image={Image} />
+          <strong className="mastheadTitle">
+            Full Stack Engineer
+          </strong>
+        </section>
       <section className="contentSubsection">
-          <h2 className="contentTitle">
-            Brian Kelly
+          <h2 className="contentTitle"><span>Brian Kelly</span>
           </h2>
           <h3 className="contentSubtitle">
             A Little Bit About Me

@@ -9,21 +9,6 @@
     text-align: center;
 }
 
-.contentTitle {
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 2rem;
-}
-
-
-.contactSubtitle {
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-
 .contentDescription {
     font-size: 0.8rem;
     padding: 0;

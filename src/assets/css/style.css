@@ -33,15 +33,61 @@ p {
 }
 
 
-
-
-
-.Headmast{
-    height: 40rem;
-    display: block;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.contentTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+    overflow: hidden;
+    text-align: center;
 }
+
+.contentTitle{
+    overflow: hidden;
+    text-align: center;
+}
+.contentTitle > span{
+    position: relative;
+    display: inline-block;
+}
+.contentTitle > span:before, .contentTitle > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid;
+    width: 591px; /* half of limiter*/
+    margin: 0 20px;
+}
+.contentTitle > span:before{
+    right: 100%;
+}
+.contentTitle > span:after{
+    left: 100%;
+}
+
+.contactSubtitle {
+    display: block;
+    font-size: .8rem;
+}
+
+.mastheadTitle-wrapper {
+    margin-bottom: 2rem;
+    width: 40rem;
+    position: absolute;
+
+}
+
+.mastheadTitle {
+    color: white;
+    font-size: 4rem;
+    padding: 0.1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mastheadContainer {
+    position: relative;
+    width: 100%;
+}
+
