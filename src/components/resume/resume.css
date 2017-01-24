@@ -12,12 +12,6 @@
 }
 
 
-.col2 {
-    display: inline-block;
-    width: 300px;
-    position: relative;
-}
-
 .col1 {
     display: inline-block;
     width: 600px;
@@ -36,7 +30,7 @@
     vertical-align: top;
     border-bottom: 2px solid #d3d3d3;
     margin-top: -2rem;
-    max-width: 32rem;
+    max-width: 44rem;
     text-align: left;
     display: block;
     margin-left: auto;
@@ -52,7 +46,7 @@
 
 
 .resumeTitle {
-    text-align: center;
+    text-align: left;
     font-size: 2.25rem;
     line-height: 2.25rem;
     margin-bottom: 5px;

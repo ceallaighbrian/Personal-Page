@@ -14,7 +14,7 @@ export default class Resume extends Component {
               Resume
             </strong>
         </section>
-        <section className="contentSubsection text-center">
+        <section className="contentSubsection">
         <h2 className="contentTitle"><span>Resume</span>
         </h2>
         <h3 className="contentSubtitle">
@@ -170,7 +170,6 @@ export default class Resume extends Component {
             </ul>
           </div>
         </div>
-
       </div>
     )
   }

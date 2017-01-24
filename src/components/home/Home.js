@@ -9,7 +9,7 @@ export default class Home extends Component {
     return (
       <div className="content">
         <section className="mastheadContainer">
-          <Masthead image={Image} />
+          <Masthead image={Image}/>
           <strong className="mastheadTitle">
             Full Stack Engineer
           </strong>

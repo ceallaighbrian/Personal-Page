@@ -54,7 +54,7 @@ p, li, ul {
     position: absolute;
     top: 50%;
     border-bottom: 2px solid;
-    width: 591px; /* half of limiter*/
+    width: 591px;
     margin: 0 20px;
 }
 .contentTitle > span:before{
@@ -62,6 +62,12 @@ p, li, ul {
 }
 .contentTitle > span:after{
     left: 100%;
+}
+
+.col2 {
+    display: inline-block;
+    width: 300px;
+    position: relative;
 }
 
 .contactSubtitle {
@@ -96,4 +102,13 @@ p, li, ul {
     position: relative;
     width: 100%;
 }
+
+.contactHeader {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
 
