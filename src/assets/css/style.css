@@ -28,7 +28,7 @@ body{
     font-family: 'Julius Sans One';
 }
 
-p {
+p, li, ul {
     font-family: 'Open Sans';
 }
 
@@ -74,23 +74,6 @@ p {
     display: block;
 }
 
-
-.col-2 {
-    display: inline-block;
-    position: relative;
-    width: 100%
-}
-
-.col2 {
-    display: inline-block;
-    width: 100%;
-    position: relative;
-}
-
-.col1 {
-    display: inline-block;
-    width: 100%
-}
 
 .mastheadTitle-wrapper {
     margin-bottom: 2rem;
