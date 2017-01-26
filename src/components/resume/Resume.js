@@ -106,7 +106,7 @@ export default class Resume extends Component {
             <p>BearingPoint, Dublin, Ireland, July 2015 - July 2016</p>
             <ul className="resumeList ">
               <li>
-                Developed Restful web services using Java Spring for a large billing and rating system for our client BT.
+                Developed Restful web services using Java Spring for a large billing and rating system for our client British Telecom.
               </li>
               <li>
                 Implemented numerous user stories to expand on our core product’s functionally.

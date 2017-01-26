@@ -22,7 +22,7 @@ export default class Home extends Component {
           </h3>
         <div className="imageHeadshot"/>
         <p className="contentDescription">
-          Highly motivated, ambitious engineer, with a passion for problem-solving and self-learning. Professional experience in full-stack development and Agile methodologies. Actively learning new languages and frameworks in addition to my work. Currently seeking a software engineer position in San Francisco.
+          I graduated from NUI Galway in 2014 with a degree in Business Information Systems. Following this I wanted to move into software development so I did a postgraduate degree in Computer Science also in NUI Galway. Finishing this degree I began working in BearingPoint as a fullstack engineer. I worked for over year and then had the opportunity to get a Visa to work in USA, which brought me to San Francisco. After working for 3 months as a MEAN stack engineer in Optima Global Solutions I'm currently looking for work in Bay Area. I'm continuously trying to refine my skills and I currently have a focus on React.
         </p>
       </section>
       </div>
